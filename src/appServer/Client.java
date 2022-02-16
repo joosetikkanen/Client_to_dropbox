@@ -25,8 +25,7 @@ public class Client {
 
         // basically builds corresponding GET request that will be returnd to
         // the front-end…
-        String appKey = "9zy23106ps1zihe"; // get from AppConsole when create
-                                           // the DropBox App
+        String appKey = "xxxxxxxxxxxxxx"; // application key from the personal DropBox AppConsole
         String redirectURI = "http://localhost:8080/MyDBoxClient/"; // any url
                                                                     // to where
                                                                     // you want
@@ -48,9 +47,8 @@ public class Client {
     public String accessToken(String codeStr) throws IOException {
 
         String code = "" + codeStr; // code get from previous step
-        String appKey = "9zy23106ps1zihe"; // get from AppConsole when create
-                                           // the DropBox App
-        String appSecret = "x0if9e2fsjdis79"; // get from AppConsole when create
+        String appKey = "xxxxxxxxxxxxxx"; // application key from the personal DropBox AppConsole
+        String appSecret = "xxxxxxxxxxxxxx"; // application secret from the personal DropBox AppConsole
                                               // the DropBox App
         String redirectURI = "http://localhost:8080/MyDBoxClient/"; // any url
                                                                     // to where
